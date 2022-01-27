@@ -25,6 +25,8 @@ h1{
 
 .countdown-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-text{
@@ -52,46 +54,45 @@ h1{
        background-size: cover;
         
     }
-    h1{
+    /* h1{
         font-size: 3rem;
         margin-top: 15rem;
-    }
+    } */
 }
 @media (max-width:850px){
     body{
         background-position: 100vw;
     }
-    .big-text{
+    /* .big-text{
         font-weight: bold;
         font-size: 3rem;
         line-height: 1;
         margin: 0 2rem;
-    }
+    } */
 }
 @media (max-width:530px){
     body{
         background-position: 100vw;
     }
     h1{
-        position: relative;
-        left: -20px;
-        font-size: 2rem;
+        font-weight: 500;
+        font-size: 3rem;
         text-align: center;
     }
-    .big-text{
+    /* .big-text{
         font-weight: bold;
         font-size: 1.5rem;
         line-height: 1;
         margin: 0 2rem;
-    }
-    .countdown-el{
+    } */
+    /* .countdown-el{
         position: relative;
         right: 25px;
     }
 
     .countdown-el span{
         font-size: 1rem;
-    }
+    } */
 
 }
 @media (max-width:440px){
@@ -101,9 +102,10 @@ h1{
     h1{
         position: relative;
         left: 3px;
-        font-size: 2.5rem;
+        font-size: 2.6rem;
+        font-weight: 600;
     }
-    .big-text{
+    /* .big-text{
         font-weight: bold;
         font-size: 1.3rem;
         line-height: 1;
@@ -115,7 +117,7 @@ h1{
     .countdown-el span{
         position: relative;
         left: 20px;
-    }
+    } */
 
 
 }
